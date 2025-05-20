@@ -7,7 +7,7 @@
     <title>Medi-Crest</title>
     <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon-64x64.ico">
+    <link rel="icon" type="image/x-icon" href="/images/fevicon.ico.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,14 +20,19 @@
 <body>
     <section id="hero">
         <nav class="navigation">
-            <a href="#" class="logo"><span>Medi</span>Crest</a>
-            <ul class="menu">
-                <li><a href="#">Find a doctor</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Testinomials</a></li>
-            </ul>
+              <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+             <a href="/html/index.html" class="logo"><span>Medi</span>Crest</a>
+             <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+    
+                </ul>
             <!-- Appointment btn -->
-            <a href="#" class="nav-app-btn">Appointment</a>
+            <a href="#subscribe" class="nav-app-btn">Appointment</a>
         </nav>
 
 
@@ -38,18 +43,19 @@
                 </p>
 
                 <div class="hero-text-btns">
-                    <a href="#">
+                    <a href="#team">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         Find Doctor
                     </a>
-                    <a href="#">
+                    <a href="#subscribe">
                         <i class="fa-solid fa-check"></i>
                         Book Appointment
                     </a>
                 </div>
+
             </div>
             <div class="hero-img">
-                <img src="/images/main-bg.png" alt="">
+                <img src="/images/contact-img.png" alt="">
             </div>
         </div>
 
@@ -71,93 +77,209 @@
                 <input type="text" placeholder="Set Your Location">
             </div>
 
-<button>
-    <i class="fa-solid fa-magnifying-glass"></i>
-</button>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
 
         </div>
     </div><!--search end-->
 
-<!--What we provide-->
-<section class="provide">
-    <!--box1-->
-<div class="info-box info-box-1">
-    <div class="info-box-icon">
-    <i class="fa-solid fa-capsules"></i>
-</div>
-<div class="info-box-text">
-    <strong>Specialised Service </strong>
-    <p>An efficient, professional, and precise specialised service.
+    <!--What we provide-->
+    <section class="provide">
+        <!--box1-->
+        <div class="info-box info-box-1">
+            <div class="info-box-icon">
+                <i class="fa-solid fa-capsules"></i>
+            </div>
+            <div class="info-box-text">
+                <strong>Specialised Service </strong>
+                <p>An efficient, professional, and precise specialised service.
 
-    </p>
-</div>
-</div>
+                </p>
+            </div>
+        </div>
 
-    <!--box2-->
-    <div class="info-box info-box-2">
-        <div class="info-box-icon">
-            <i class="fa-regular fa-comment"></i>
-    </div>
-    <div class="info-box-text">
-        <strong>24/7 Advance Care </strong>
-        <p>24/7 advanced, professional, and efficient care.</p>
-    </div>
-    </div>
+        <!--box2-->
+        <div class="info-box info-box-2">
+            <div class="info-box-icon">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="info-box-text">
+                <strong>24/7 Advance Care </strong>
+                <p>24/7 advanced, professional, and efficient care.</p>
+            </div>
+        </div>
 
         <!--box3-->
-<div class="info-box info-box-3">
-    <div class="info-box-icon">
-        <i class="fa-solid fa-square-poll-horizontal"></i>
-</div>
-<div class="info-box-text">
-    <strong>Get result online</strong>
-    <p>Get fast, efficient results online anytime.</p>
-</div>
-</div>
-</section><!--End of section -->
+        <div class="info-box info-box-3">
+            <div class="info-box-icon">
+                <i class="fa-solid fa-square-poll-horizontal"></i>
+            </div>
+            <div class="info-box-text">
+                <strong>Get result online</strong>
+                <p>Get fast, efficient results online anytime.</p>
+            </div>
+        </div>
+    </section><!--End of section -->
 
-<!--Story page-->
-<section id="story">
-<div class="story-img">
-     <img src="/images/story_img.jpg" alt="">
-     <a href="#" class="video-play-btn">
-        <i class="fa-solid fa-play"></i>
-        Play Video
-     </a>
-</div>
-<div class="story-text">
-    <h2>Short Story About Our Clinic</h2>
-<p>Our clinic offers expert, compassionate care in a clean and modern setting. We provide a wide range of medical services tailored to your unique needs. Your health, comfort, and satisfaction are always our top priorities.</p>
-<p>Open 24/7, we’re always here when you need us most. Trust our dedicated team for reliable, professional, and personalized healthcare every time.</p>
+    <!--Story page-->
+    <section id="story">
+        <div class="story-img">
+            <img src="/images/story_img_new.jpg" alt="">
+            <a href="#" class="video-play-btn">
+                <i class="fa-solid fa-play"></i>
+                Play Video
+            </a>
+        </div>
+        <div class="story-text">
+            <h2>Short Story About Our Clinic</h2>
+            <p>Our clinic offers expert, compassionate care in a clean and modern setting. We provide a wide range of
+                medical services tailored to your unique needs. Your health, comfort, and satisfaction are always our
+                top priorities.</p>
+            <p>Open 24/7, we’re always here when you need us most. Trust our dedicated team for reliable, professional,
+                and personalized healthcare every time.</p>
 
-<!--Happy clients container-->
-<div class="story-number-container">
-    <!--Box1-->
-    <div class="story-number-box sn-box1">
-        <strong>1000+</strong>
-        <span>Happy Patients</span>
-    </div>
+            <!--Happy clients container-->
+            <div class="story-number-container">
+                <!--Box1-->
+                <div class="story-number-box sn-box1">
+                    <strong>1000+</strong>
+                    <span>Happy Patients</span>
+                </div>
 
-     <!--Box2-->
-     <div class="story-number-box sn-box2">
-        <strong>215+</strong>
-        <span>Experts Doctors</span>
-    </div>
+                <!--Box2-->
+                <div class="story-number-box sn-box2">
+                    <strong>215+</strong>
+                    <span>Experts Doctors</span>
+                </div>
 
-     <!--Box3-->
-     <div class="story-number-box sn-box3">
-        <strong>310+</strong>
-        <span>Hospital Rooms</span>
-    </div>
+                <!--Box3-->
+                <div class="story-number-box sn-box3">
+                    <strong>310+</strong>
+                    <span>Hospital Rooms</span>
+                </div>
 
-     <!--Box4-->
-     <div class="story-number-box sn-box4">
-        <strong>110+</strong>
-        <span>Award Winning</span>
-    </div>
-</div><!--container end-->
-</div>
-</section>
+                <!--Box4-->
+                <div class="story-number-box sn-box4">
+                    <strong>110+</strong>
+                    <span>Award Winning</span>
+                </div>
+            </div><!--container end-->
+        </div>
+    </section> <!--StoryEnd-->
+
+
+
+
+
+
+
+    <!--TEAM Section-->
+    <section id="team">
+
+        <div class="team-heading">
+            <h3>Meet Our Specialist</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nostrum?</p>
+        </div>
+
+        <!--Box container-->
+        <div class="team-box-container">
+             <!--Box-1------------->
+            <div class="team-box ">
+                <div class="team-img">
+                    <img src="/images/d3.png" alt="doctor1">
+                </div>
+                <div class="team-text-box">
+                    <strong>Dr. Michael</strong>
+                    <span>Dental Specialist</span>
+                </div>
+            </div>
+            <!--Box-2------------->
+            <div class="team-box ">
+                <div class="team-img">
+                    <img src="/images/d4.png" alt="doctor1">
+                </div>
+                <div class="team-text-box">
+                    <strong>Dr. Julie</strong>
+                    <span> Team Lead</span>
+                </div>
+            </div>
+            <!--Box-3------------->
+            <div class="team-box ">
+                <div class="team-img">
+                    <img src="/images/d1.png" alt="doctor1">
+                </div>
+                <div class="team-text-box">
+                    <strong>Dr. Alex</strong>
+                    <span>Skin Specialist</span>
+                </div>
+            </div>
+            <!--Box-4------------->
+            <div class="team-box ">
+                <div class="team-img">
+                    <img src="/images/d2.png" alt="doctor1">
+                </div>
+                <div class="team-text-box">
+                    <strong>Dr. John</strong>
+                    <span>Eye Specialist</span>
+                </div>
+            </div>
+           
+        </div>
+
+    </section><!--Team Section end-->
+
+    <section id="subscribe">
+        <h3>Subscribe For New Updates From MediCrest</h3>
+        <form class="subscribe-box">
+            <input type="text" name="email" id="email" placeholder="xyz@gmail.com">
+            <button>Subscribe</button>
+        </form>
+    </section>
+
+    <!---Footer------------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+             <a href="/html/index.html"><span>Medi</span>Crest</a>
+                <p>MediCrest is your trusted partner in health and wellness.
+                    We provide reliable medical resources, expert care, and up-to-date health information.
+                    From consultations to lifestyle tips, we're here for your well-being.
+                    Stay informed, stay healthy — with MediCrest.</p>
+              <div class="footer-links">
+                        <!--Link1-------->
+                        <div class="footer-link links">
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <!--Link2-------->
+                        <div class="footer-link links">
+                            <a href="https://instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <!--Link3-------->
+                        <div class="footer-link links">
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <!--Link4-------->
+                        <div class="footer-link links">
+                            <a href="https://youtube.com" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                <div class="footer-bottom">
+                    <p>All Rights Reserved | @MediCrest@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 
 </body>
